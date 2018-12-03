@@ -51,6 +51,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/zuk/msm8996-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/zuk/msm8996-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
@@ -79,18 +81,20 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-     vendor/zuk/msm8996-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/zuk/msm8996-common/proprietary/lib64/libwfds.so:system/lib64/libwfds.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/hw/fingerprint.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.qcom.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/zuk/msm8996-common/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libFileMux.so:system/lib64/libFileMux.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libOmxMux.so:system/lib64/libOmxMux.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_filtergenerator.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_makeupV2.so \
@@ -554,6 +558,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdsprpc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
