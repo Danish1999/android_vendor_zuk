@@ -646,6 +646,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/zuk/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zuk/msm8996-common/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/zuk/msm8996-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/zuk/msm8996-common/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/zuk/msm8996-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \

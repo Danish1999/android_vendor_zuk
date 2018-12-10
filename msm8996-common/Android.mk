@@ -193,7 +193,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WfdCommon
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := zuk
 LOCAL_SRC_FILES := proprietary/framework/WfdCommon.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
